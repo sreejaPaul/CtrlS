@@ -27,6 +27,7 @@ After installing , clone the Repository and to install the dependencies run
 #### `npm install`
 
 Run the application in development mode
+
 #### `npm start`
 App will be served on and can be viewed at https://localhost:3000
 
