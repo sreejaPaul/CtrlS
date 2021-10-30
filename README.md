@@ -1,12 +1,13 @@
 # CtrlS
 
+![output](https://user-images.githubusercontent.com/88406499/139555458-f9c85b80-a8ac-4d44-ae4d-bdfa10b7d1e7.png)
 
 
 Build with React JS, Firebase and Firestore. This web app has these following features:
 1. User can sign up and sign in easily. User authentication is done using firebase. 
 2. If user foreget their password they still can access there their account through password reset.
 3. User can also update their profile.
-4. All user can store data(student informations) in a structered way in this app.
+4. All user can store data(student informations) in a structured way in this app.
 5. User can create, read, update and delete all the student informations from the table. (Pure CRUD operation)
 
 User data and their student informtions are stored and fetched from Firestore database.
