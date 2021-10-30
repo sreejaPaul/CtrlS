@@ -1,0 +1,64 @@
+
+
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.all{
+  font-family: Montserrat;
+  text-align: center;
+  color: #073C57;
+  font-size: 34px;
+  padding-top: 20vh;
+  overflow: hidden;
+}
+.insideSlider{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.insideSlider:first-of-type{
+  animation: slide 6s ;
+}
+.insideSliderSpan:last-of-type {
+  font-size: 33px;
+  color: #6FABCA;
+  animation: slide 6s ;
+}
+@keyframes appear{
+  0%{opacity: 0;}
+  20%{opacity: 1;}
+  80%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes slide{
+  0%{margin-left:-800px;}
+  20%{margin-left:-800px;}
+  35%{margin-left:0px;}
+100%{margin-left:0px;}
+}
+.type{
+  margin-top: 5vh;
+  margin-left: 39vw;
+  font-size: 25px;
+  font-weight: bold;
+}
+.frontbtn{
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+.frontpage{
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9F1F5;
+}
+.color{
+  background-color: #6FABCA;
+}
+.onespace{
+  padding: 5px;
+  margin-left: 0.5vw;
+}
+.space{
+  padding: 5px;
+  margin-left: 15vw;
+}

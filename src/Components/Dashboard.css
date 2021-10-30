@@ -1,0 +1,23 @@
+.dashboardTop{
+    background-color: #f1f1f1;
+    padding: 10px;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+.currentUser{
+    flex-grow: 1;
+}
+.profileUpdate {
+    padding: 5px;
+    margin-right: 30px;
+}
+.logout{
+    padding: 5px;
+    margin-right: 20px ;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
